@@ -25,7 +25,8 @@ console.log(typeof computer);
 
 console.log(typeof age);
 
-
+//stack used primaive data types (copy milti h)
+//head uses non primative data types ( direct reffrence milta h )
 
 
 

@@ -52,10 +52,10 @@
 
 // // comaprisaom should be in same data type 
 // // avoid this blow comparison 
-// console.log(null>0);
-// console.log(null == 0);
-// console.log(null >= 0);
+console.log(null>0);
+console.log(null == 0);
+console.log(null >= 0);
 
 // console.log(undefined ==0);
 // console.log(undefined > 0);
-// console.log(undefined > 0);
+// console.log(undefined < 0);
