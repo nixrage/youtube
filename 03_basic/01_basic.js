@@ -63,17 +63,17 @@
 
 //====
 
-//creta e a oobject 
-const user = {
-    username : "hitesh",
-    price : 122
+// //creta e a oobject 
+// const user = {
+//     username : "hitesh",
+//     price : 122
 
-}
-// let pass object in functions
-function handleobjt(anyobject){
-    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+// }
+// // let pass object in functions
+// function handleobjt(anyobject){
+//     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
 
-}
+// }
 
 //handleobjt(user)
 
@@ -82,16 +82,15 @@ function handleobjt(anyobject){
 //     username: "sam",
 //     price : 767
 // })
-//==========
-const mynewarry = [ 200, 300,400,500]
-//defien functio who acccept array 
-function returnseocnvalue(getarray){
-    return getarray[0]
-}
+// //==========
+// const mynewarry = [ 200, 300,400,500]
+// //defien functio who acccept array 
+// function returnseocnvalue(getarray){
+//     return getarray[0]
+// }
 
-//console.log(returnseocnvalue(mynewarry));
-//pass array direct 
-console.log(returnseocnvalue([827,324,3245,546]));
+// //console.log(returnseocnvalue(mynewarry));
+// //pass array direct 
+// console.log(returnseocnvalue([827,324,3245,546]));
 
-//start from 21
-
+// //start from 21
