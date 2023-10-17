@@ -45,4 +45,5 @@ console.log(var2)
 //TERNIARY OPERATOR 
 //CONDITI9ON ? TRUE : FALSE
 const price = 687;
-price >= 654 ? console.log("gratere"):console.log("");
+price >= 654 ? console.log("gratere"):console.log("less");
+
