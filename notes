@@ -1,0 +1,14 @@
+js excecution  context 
+1. {} global excecution context is locate in  .this
+funtion excecution context
+eval execution context
+
+{}
+2. memory creation phase(isme var ke liye ya jobhi declare kiya h uske liye jagah place locate hoti h memory me )
+3. execution phase (isme excecution hota h )
+
+
+
+
+
+
