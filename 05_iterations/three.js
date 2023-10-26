@@ -35,7 +35,8 @@ const myobj = {
     'game2':'kio'
 }
 
-
+//myobj is not iterable 
+// so use  ,  for in 
 for (const obj of myobj) {
     console.log(obj);
     
