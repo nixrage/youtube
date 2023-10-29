@@ -4,4 +4,16 @@ const mynumbers=[1,23,4,5,6,7,8,9,0]
 // for (const num in mynumbers) {
 //      //console.log(mynumbers[num]);
 //      console.log(mynumbers[num] +10);
-// }     
+//      }
+
+
+//const add = mynumbers.map( (num)=> num+10 )
+//console.log(add);
+
+
+// so foreach method retruun nahi larta its will show undefined also 
+// const add = mynumbers.forEach((num) => {
+//      return console.log(num+10); 
+// });
+
+// console.log(add);
