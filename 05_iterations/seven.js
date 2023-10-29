@@ -17,3 +17,15 @@ const mynumbers=[1,23,4,5,6,7,8,9,0]
 // });
 
 // console.log(add);
+
+
+
+//chaining of methods
+const newnum = mynumbers
+                 .map( (num)=> num+10)
+                 .map( (num)=> num*2)
+                 .filter( (num) => num >=30)
+                 //.forEach( function(num){  return num *0})
+
+
+console.log(newnum);
