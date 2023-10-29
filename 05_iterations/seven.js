@@ -29,3 +29,14 @@ const newnum = mynumbers
 
 
 console.log(newnum);
+
+
+
+
+
+
+
+
+
+
+
