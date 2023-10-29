@@ -14,20 +14,28 @@ const mytotal= mynums.reduce( (acc, curntval) => acc+curntval,0 )
 console.log(mytotal);
 
 const shoppingcart = [
-    {itemname:js,
+    {itemname:'js',
      price:323},
 
-    {itemname:kali,
+    {itemname:'kali',
     price:323},
 
-    {itemname:py,
+    {itemname:'py',
         price:323}
 ]
 
 
 // add all price in price 
  
+let totalpric= 0
 
-for (const key in shoppingcart) {
-     //console.log(shoppingcart[key]);
+for (const item of shoppingcart) {
+    //console.log(item.price);
+    totalpric+=item.price
 }
+console.log(totalpric);
+
+
+//======
+// const pricetopay = shoppingcart.reduce( (acc , item)=> acc + item.price ,0 )
+// console.log(pricetopay);
