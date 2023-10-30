@@ -7,15 +7,22 @@
 </head>
 <body style="background-color:black">
     <script>
-        const div =document.createElement('div')
+    const div = document.createElement('div')
+    console.log(div)
+    // add properties in div elenmtn 
+    div.className="main"
+    div.id=Math.round(Math.random()*10+1)
+    //set custom attributes with key and value 
+    div.setAttribute("title","my new title")
+    div.style.backgroundColor="green"
+    div.style.padding = "12px"
+    //div.innerHTML=" chai aur codfeee"
+    const addtext = document.createTextNode("chai aur code ")
+    div.appendChild(addtext)
 
-        console.log(div);
-        div.className='main'
-        div.id=MAth.round(Math.random() *10 +1)
-        div.setAttribute("title","generated titile")
-        console.log(div.innerHTML)
-        div.style.color="green"
-        div.innerText= "chai aur code with coffe "
+    document.body.appendChild(div)
+
+
     </script>
     
 </body>
